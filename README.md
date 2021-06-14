@@ -24,6 +24,7 @@ This project topology consists of these packages;
 	* Config
 
 **Database Details:**
+
 This project is using H2 Database to store data. After project run, database can be accessed from this url like http://localhost:8080/h2-console/ .
 Database setting can be changed from /survey/src/main/resources/application.properties
 There are two tables which are named like ANSWER AND SURVEY.
