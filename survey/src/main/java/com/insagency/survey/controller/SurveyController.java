@@ -42,7 +42,7 @@ public class SurveyController {
 	public Response listSurveyTopicsWithNPS() {
 
 		try {
-			List<Topic> response = (List<Topic>) surveyService.calculateNpm();
+			List<Topic> response = (List<Topic>) surveyService.calculateNps();
 			responseCode = "200";
 			responseMessage = "Success";
 			return new Response(responseCode, responseMessage, response);
