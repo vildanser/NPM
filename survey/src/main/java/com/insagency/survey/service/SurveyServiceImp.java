@@ -40,7 +40,7 @@ public class SurveyServiceImp implements BaseService<Survey> {
 		  return  surveyRepo.findById(id);
 	}
 
-	public List<Topic> calculateNpm() {
+	public List<Topic> calculateNps() {
 
 		List<Survey> surveys = surveyRepo.findAll();
 		List<Topic> topics = new ArrayList<Topic>();
