@@ -38,8 +38,8 @@ public class SurveyController {
 
 	}
 
-	@GetMapping(value = "/listSurveyTopicWithNPM")
-	public Response listSurveyTopicsWithNPM() {
+	@GetMapping(value = "/listSurveyTopicWithNPS")
+	public Response listSurveyTopicsWithNPS() {
 
 		try {
 			List<Topic> response = (List<Topic>) surveyService.calculateNpm();
